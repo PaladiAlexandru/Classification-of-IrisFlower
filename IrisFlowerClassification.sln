@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{C812FF0E-DB21-42D0-8327-828608103DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0FB2C267-7A63-4C9F-BD11-077E97B3B4EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{FD5DDC20-D789-4A3A-B20F-ED4AF05FE08C}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FB2C267-7A63-4C9F-BD11-077E97B3B4EE} = {C812FF0E-DB21-42D0-8327-828608103DFF}
+		{FD5DDC20-D789-4A3A-B20F-ED4AF05FE08C} = {0FB2C267-7A63-4C9F-BD11-077E97B3B4EE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {650DA00D-5FFA-4C74-8084-270F9341F48B}
+	EndGlobalSection
+EndGlobal
