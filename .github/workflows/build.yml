@@ -1,13 +1,14 @@
-name: Build
 on:
+  # Trigger analysis when pushing in main or pull requests, and when creating
+  # a pull request.
   push:
     branches:
-      - master
+      - main
   pull_request:
-    types: [opened, synchronize, reopened]
+      types: [opened, synchronize, reopened]
+name: Sonar Scan
 jobs:
-  build:
-    name: Build
+  sonarcloud:
     runs-on: windows-latest
     steps:
       - name: Set up JDK 11
