@@ -1,24 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "XVjM9cpOrq9JXjQHuYLBvxAVgoNt8julT2BPkA0ZCGEhNhiQ1bYUz3xGgfU75tiKhLzNMqk4bgiL55JYTGKxew==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\prico\\Desktop\\Classification-of-IrisFlower\\Application\\Application.csproj",
+  "dgSpecHash": "AyMx9eSuWtRYpOV8s2ARVy8n/BDUNPK+APpt+V6yL/qjpNfnyzGQ80l2SWr24P8mgmSI9rf7MXgFX4rJIR2K/A==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\andre\\IdeaProjects\\Classification-of-IrisFlower\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\prico\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\prico\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.0 is not compatible with net5.0.100 (.NETCoreApp,Version=v5.0.100). Package Microsoft.EntityFrameworkCore 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0.100"
+      ]
+    }
+  ]
 }
