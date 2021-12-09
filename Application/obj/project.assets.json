@@ -1,14 +1,18 @@
 {
   "version": 3,
   "targets": {
-    "net5.0.100": {
+    ".NETFramework,Version=v5.0.100": {
       "MediatR/9.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
         "compile": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/net461/MediatR.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/net461/MediatR.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/6.0.0": {
@@ -16,13 +20,7 @@
       },
       "Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0.100",
-        "compile": {
-          "bin/placeholder/Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain.dll": {}
-        }
+        "framework": ".NETFramework,Version=v5.0.100"
       }
     }
   },
@@ -66,7 +64,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0.100": [
+    ".NETFramework,Version=v5.0.100": [
       "Domain >= 1.0.0",
       "MediatR >= 9.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0"
@@ -125,22 +123,12 @@
             "version": "[6.0.0, )"
           }
         },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -148,10 +136,10 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "Package Microsoft.EntityFrameworkCore 6.0.0 is not compatible with net5.0.100 (.NETCoreApp,Version=v5.0.100). Package Microsoft.EntityFrameworkCore 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.0 is not compatible with net5.0.100 (.NETFramework,Version=v5.0.100). Package Microsoft.EntityFrameworkCore 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
-        "net5.0.100"
+        ".NETFramework,Version=v5.0.100"
       ]
     }
   ]

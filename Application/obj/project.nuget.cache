@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AyMx9eSuWtRYpOV8s2ARVy8n/BDUNPK+APpt+V6yL/qjpNfnyzGQ80l2SWr24P8mgmSI9rf7MXgFX4rJIR2K/A==",
+  "dgSpecHash": "MwXazAEgE4C+9pwO9Vdg15N/PrwTc7VO71hkf1aSQlxONinWt7q5+LZ6HiRYTjEcuU/+kRoGGqV+sSZ5sMeENQ==",
   "success": false,
   "projectFilePath": "C:\\Users\\andre\\IdeaProjects\\Classification-of-IrisFlower\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -11,10 +11,10 @@
     {
       "code": "NU1202",
       "level": "Error",
-      "message": "Package Microsoft.EntityFrameworkCore 6.0.0 is not compatible with net5.0.100 (.NETCoreApp,Version=v5.0.100). Package Microsoft.EntityFrameworkCore 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "message": "Package Microsoft.EntityFrameworkCore 6.0.0 is not compatible with net5.0.100 (.NETFramework,Version=v5.0.100). Package Microsoft.EntityFrameworkCore 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
-        "net5.0.100"
+        ".NETFramework,Version=v5.0.100"
       ]
     }
   ]
