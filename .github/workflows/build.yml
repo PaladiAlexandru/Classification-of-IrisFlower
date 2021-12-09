@@ -12,9 +12,9 @@ jobs:
     runs-on: windows-latest
     steps:
 
-      - task: UseDotNet@2
-        displayName: Use .NET 6.0
-        inputs:
+      - name: Use .NET 6.0
+	uses: UseDotNet@2
+        with:
            packageType: 'sdk'
            version: '6.0.x'
 
